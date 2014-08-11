@@ -470,7 +470,9 @@ nnoremap <buffer> <F10> :exec '!python' shellescape(@%, 1)<cr>
 if has("gui_running")
     set guifont=Monaco:h14
     if has("gui_gtk2")   "GTK2
-        set guifont=Monaco\ 12, Monospace\ 12
+        set guifont=Monospace\ 12
+        "Monaco\ 9
+        ", Monospace\ 12
     endif
     set guioptions-=T
     set guioptions+=e
